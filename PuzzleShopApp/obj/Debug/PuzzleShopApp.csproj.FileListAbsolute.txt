@@ -1,0 +1,17 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\PuzzleShopApp.dll.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\PuzzleShopApp.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\PuzzleShopApp.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Web.Http.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Web.Http.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\obj\Debug\PuzzleShopApp.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\PuzzleShopApp\PuzzleShopApp\obj\Debug\PuzzleShopApp.pdb

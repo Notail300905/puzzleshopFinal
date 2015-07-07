@@ -1,0 +1,70 @@
+﻿
+<!--<div class="row">
+    <div data-ng-repeat="item in items2 ">
+        <a href="#/{{ item.product_Category }}" ng-click="getCategoryId()" class="btn btn-danger waves-effect">{{item.product_Category}}</a>     
+    </div>
+    <div data-ng-repeat="item2 in CategoryItems ">
+        <a class="btn btn-danger waves-effect">{{item2.SubName}}</a>
+    </div>
+</div>-->
+<div class="row">
+    <div class="card-panel">
+        <h4>Категории</h4>
+
+        <ul data-ng-repeat="item in items2 ">
+            <li>
+                <a  ng-click="getCategoryId()" class="btn btn-danger waves-effect">{{item.product_Category}}</a>
+            </li>
+
+
+          
+                <li data-ng-repeat="SubItem in CategoryItems ">
+                    <p>
+                        <a ui-sref="category.subcategory({category: item.product_Category ,subcategory: SubItem.SubName })" ng-click="getSubItems(SubItem)" class="btn btn-danger waves-effect">{{SubItem.SubName}}</a>
+                    </p>
+                </li>
+            
+        </ul>
+        <!--<ul class="collapsible" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header">Заморочки</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">Пример1</a>
+                        </li>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">Пример2</a>
+                        </li>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">Пример3</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">3D-пазлы</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">3D Crystal пазлы</a>
+                        </li>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">Металлические пазлы</a>
+                        </li>
+                        <li>
+                            <a class="btn red lighten-2 col s12 waves-effect waves-light" href="#!">Механические модели</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>-->
+    </div>
+    <div class="card-panel">
+        <h4>Мы в соцсетях</h4>
+        <!-- VK Widget -->
+        <div class="card vk" id="vk_groups"></div>
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+        <script type="text/javascript">VK.Widgets.Group("vk_groups", { mode: 0, }, 22145847);</script>
+    </div>
+</div>

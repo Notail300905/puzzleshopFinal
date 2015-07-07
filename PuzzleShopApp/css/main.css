@@ -1,0 +1,246 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 100%/1.5em;
+    background-color: wheat;
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav, section, footer, header {
+    display: block;
+}
+
+.clearfix {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.info p {
+    text-indent: 3em;
+    text-align: justify;
+}
+
+.info ul li {
+    text-align: left;
+    list-style-type: none; /* Убираем маркеры у списка */
+}
+
+    .info ul li:before {
+        content: "√"; /* Добавляем в качестве маркера символ */
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vk {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+.display-t {
+    display: table-cell;
+}
+
+.collapsible-header {
+    font-size: 1rem;
+}
+
+.btn {
+    text-transform: capitalize;
+}
+
+p {
+    padding-top: 1em;
+}
+.size-table-img {
+    padding-top:1em;
+    height: 300px;
+    width: 240px;
+}
+
+
+
+@media only screen and (min-width:1920px) {
+    .container {
+        width: 90%;
+    }
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 200px;
+        height: 250px;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 50%;
+    }
+
+    .modal {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:1919px) and (min-width:1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .collapsible-header {
+        font-size: 0.8rem;
+    }
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 140px;
+        height: 200px;
+    }
+
+    nav .brand-logo.center {
+        left: 60%;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 50%;
+    }
+
+    .modal {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 140px;
+        height: 200px;
+    }
+
+    nav .brand-logo.center {
+        left: 60%;
+    }
+
+    .collapsible-header {
+        font-size: 0.63rem;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 50%;
+    }
+
+    .modal {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .container {
+        width: 95%;
+    }
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 110px;
+        height: 150px;
+    }
+
+    .collapsible-header {
+        font-size: 0.88rem;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 50%;
+    }
+
+    .modal {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:600px) {
+    .container {
+        width: 95%;
+    }
+
+    h4 {
+        font-size: 1.64rem;
+    }
+
+    h5 {
+        font-size: 1.18rem;
+    }
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 110px;
+        height: 150px;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 50%;
+    }
+
+    .modal {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:599px) {
+    .container {
+        width: 95%;
+    }
+    /*.h4{
+        font-size: 0.68rem;
+    }
+    .h5{
+        font-size: 0.96rem;
+    }*/
+
+    .size {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 90px;
+        height: 110px;
+    }
+
+    .modal.modal-fixed-footer {
+        height: 75%;
+    }
+
+    .modal {
+        width: 90%;
+    }
+    td, th {
+         padding: 15px 1px; 
+    }
+}

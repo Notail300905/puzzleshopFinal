@@ -1,0 +1,29 @@
+﻿<div  class="row">
+    <div class="clearfix">
+        <div class="right">
+            <a class="btn-floating btn waves-effect waves-light red lighten-2" ng-class="{'active':mode==1}" ng-click="mode=1"><i class="mdi-action-view-module"></i></a>
+            <a class="btn-floating btn waves-effect waves-light red lighten-2" ng-class="{'active':mode==2}" ng-click="mode=2"><i class="mdi-action-view-list"></i></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div data-ng-repeat="item in CategoryItems2 | filter:searchName" ng-class="{'col s12 m12 l12':mode==2, 'col s6 m4 l3':mode==1}">
+        <div class="card" ng-hide="mode==2">
+            <img href="#/table/{{item.Id}}" src="{{item.Foto}}">
+            <h5>{{item.Name}}</h5>
+            <ngcart-addtocart id="{{ item.Id }}" name="{{ item.Name }}" price="{{ item.Price }}" quantity="1" quantity-max="30" data="u"><i class="mdi-action-add-shopping-cart"></i></ngcart-addtocart>
+            <p><a class="btn btn-default" href="#/table/{{item.Id}}" role="button">View details &raquo;</a></p>
+            <br />
+        </div>
+        <div class="card" ng-hide="mode==1">
+            <img href="#/table/{{item.Id}}" src="{{item.Foto}}">
+            <div class="col s6 m8 l9">
+                <p>
+                    Название продукта:{{item.Name}}
+                    Цена:{{item.Price}}
+                    <ngcart-addtocart id="{{ item.Id }}" name="{{ item.Name }}" price="{{ item.Price }}" quantity="1" quantity-max="30" data="u"><i class="mdi-action-add-shopping-cart"></i></ngcart-addtocart>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
